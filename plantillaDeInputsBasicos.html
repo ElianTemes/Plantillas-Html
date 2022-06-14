@@ -1,0 +1,69 @@
+﻿///Input comun///
+<div class="col-sm-2">
+    <div class="form-group">
+        <label for="X" data-translate="X"></label>
+        <input type="text" class="form-control form-control-sm" name="Entity/Filter.X" id="Entity/Filter_X">
+    </div>
+</div>
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+///Dropdown///
+<div class="col-sm-2">
+    <div class="form-group">
+        <input type="hidden" name="Filter/Entity.XId" id="Filter/Entity_XId" />
+        <label for="X" data-translate="X"></label>
+        <select id="Entity_X" name="Entity.X" class="form-control"> </select>
+    </div>
+</div>
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+///Autocomplete///
+<div class="col-sm-2">
+    <div class="form-group">
+        <label for="X" data-translate="X"></label>
+        <div class="input-group">
+            <input id="Entity/Filter_XId" type="hidden" />
+            <input id="Entity/Filter_X" name="Entity/Filter.X" type="text" class="form-control form-control-md" placeholder-translate="X">
+            <div class="input-group-append">
+                <button id="Filter/Entity_CleanX" type="button" class="btn btn-sm btn-outline-secondary docs-datepicker-trigger" disabled="">
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+///DatePicker///
+<div class="col-sm-2">
+    <div class="form-group">
+        <label for="DateX" data-translate="DateX"></label>
+        <div class="input-group">
+            <input type="tel" id="Entity/Filter_DateX" name="Entity/Filter.DateX" class="form-control">
+            <button class="btn btn-primary" type="button" id="Entity/Filter_BtnShowDateX">
+                <i class="fa fa-calendar"></i>
+            </button>
+        </div>
+    </div>
+</div>
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+///RadioButton///
+<div class="col-sm-2">
+    <div class="form-group">
+        <label class="d-block mb-3" data-translate="Active"></label>
+        <div class="custom-control custom-radio custom-control-inline">
+            <input type="radio" id="Filter_Active_All" name="Filter.Active" value="" class="custom-control-input">
+            <label class="custom-control-label" for="Filter_Active_All" data-translate="All"></label>
+        </div>
+        <div class="custom-control custom-radio custom-control-inline">
+            <input type="radio" id="Filter_Active_Yes" name="Filter.Active" value="true" checked class="custom-control-input">
+            <label class="custom-control-label" for="Filter_Active_Yes" data-translate="Yes"></label>
+        </div>
+        <div class="custom-control custom-radio custom-control-inline">
+            <input type="radio" id="Filter_Active_No" name="Filter.Active" value="false" class="custom-control-input">
+            <label class="custom-control-label" for="Filter_Active_No" data-translate="No"></label>
+        </div>
+    </div>
+</div>
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
