@@ -34,11 +34,10 @@
                 <div class="row mb-4">
                     <div class="col-sm-12">
                         <div class="text-sm-right">
-                            <!--TODO: OptionEnum.Create-->
                             <button title="" type="button" class="btn btn-success" id="btnCreate" autocomplete="off"><i class="fas fa-plus"></i> <span data-translate="New"></span></button>
                             <button title="" type="button" class="btn btn-default" id="btnExport" data-translate="Export"></button>
                         </div>
-                    </div><!-- end col-->
+                    </div>
                 </div>
                 <div class="row">
                     <div class="col-lg-12">
@@ -49,9 +48,13 @@
         </div>
     </div>
 </div>
+<!-- Para Modal -->
 <div class="modal fade" id="ajax-modal-container" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content" id="modal_container" data-partial-html="BankForm">
-        </div><!-- /#modal_container -->
-    </div><!-- /.modal-dialog -->
+        </div>
+    </div>
+</div>
+<!-- Para Pantalla -->
+<div class="mt-lg-4 card" id="divEntityContainer" style="display:none;" data-partial-html="OrderForm">
 </div>
